@@ -1,0 +1,21 @@
+/current/*
+/versions/*
+!/versions/pb
+/versions/pb/**
+
+.DS_Store
+.ghostpid
+
+*.log
+*.pid
+
+node_modules/
+
+/content/logs/*
+/content/data/*
+/content/files/*
+/content/themes/casper/*
+
+# config
+config.*.json
+!config.channels.json
