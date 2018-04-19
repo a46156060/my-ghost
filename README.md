@@ -1,15 +1,21 @@
-# my-ghost
+1. [ghost](https://github.com/TryGhost/Ghost)
 
-```console 
-$ git submodule update --init --recursive
-`
+## install
 
 ```console
 $ cd current/
-$ npm run setup
+$ grunt setup
 $ grunt build
 ```
 
+## config
 ```console
-$ ghost setup
+$ npm install ghost-cli -g
+$ ghost config
 ```
+
+## run
+```console
+$ ghost start
+```
+[详细文档](https://docs.ghost.org/v1.0.0/docs/ghost-cli)

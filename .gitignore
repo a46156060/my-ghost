@@ -1,7 +1,7 @@
 /current/*
 /versions/*
-!/versions/pb
 /versions/pb/**
+!/versions/pb
 
 .DS_Store
 .ghostpid
