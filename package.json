@@ -1,0 +1,11 @@
+{
+  "name": "projects.pengbo-newpage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./current/core/index.js",
+  "scripts": {
+    "setup": "cd current && npm run setup && grunt prod"
+  },
+  "author": "",
+  "license": "ISC"
+}

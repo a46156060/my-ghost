@@ -1,21 +1,13 @@
-1. [ghost](https://github.com/TryGhost/Ghost)
+1.  [ghost](https://github.com/TryGhost/Ghost)
 
-## global
+## setup
 ```console
+$ # global
 $ npm install ghost-cli -g
-```
-
-## pull submodule
-```console
+$ # init submodule
 $ git submodule update --init --recursive
-```
-
-## build
-
-```console
-$ cd current/
+$ # build
 $ npm run setup
-$ grunt prod
 ```
 
 ## config
