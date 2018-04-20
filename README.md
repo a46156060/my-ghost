@@ -7,19 +7,7 @@ $ npm install ghost-cli -g
 
 ## setup
 ```console
-$ # init submodule
-$ git submodule update --init --recursive
 $ npm run init
-```
-
-## build
-```console
-$ npm run build
-```
-
-## ghost setup
-```
-$ ghost setup
 ```
 
 ## run
