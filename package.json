@@ -4,7 +4,8 @@
   "description": "",
   "main": "./current/core/index.js",
   "scripts": {
-    "setup": "cd current && npm run setup && grunt prod"
+    "init": "./scripts/init.sh",
+    "build": "./scripts/build.sh"
   },
   "author": "",
   "license": "ISC"

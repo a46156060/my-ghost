@@ -1,17 +1,24 @@
 1.  [ghost](https://github.com/TryGhost/Ghost)
 
-## setup
-```console
-$ # global
+## global
+```concole
 $ npm install ghost-cli -g
-$ # init submodule
-$ git submodule update --init --recursive
-$ # build
-$ npm run setup
 ```
 
-## config
+## setup
 ```console
+$ # init submodule
+$ git submodule update --init --recursive
+$ npm run init
+```
+
+## build
+```console
+$ npm run build
+```
+
+## ghost setup
+```
 $ ghost setup
 ```
 
