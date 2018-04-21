@@ -1,7 +1,8 @@
-1.  [ghost](https://github.com/TryGhost/Ghost)
+1. [ghost](https://github.com/TryGhost/Ghost)
+2. Node.js 8.9.x
 
 ## global
-```concole
+```console
 $ npm install ghost-cli -g
 ```
 

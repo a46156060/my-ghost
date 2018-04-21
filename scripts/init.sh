@@ -1,8 +1,6 @@
-git submodule update --init --recursive
+git submodule update --init --recursive --depth 1
 
 cd current && npm run setup
-
-cd current
 
 echo "building"
 grunt build && grunt prod

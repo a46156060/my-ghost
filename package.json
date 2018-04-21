@@ -8,5 +8,9 @@
     "build": "./scripts/build.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "^8.9.0",
+    "cli": "^1.7.0"
+  }
 }
