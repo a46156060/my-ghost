@@ -2,3 +2,4 @@
 [submodule "versions/pb"]
 	path = versions/pb
 	url = https://github.com/a46156060/Ghost.git
+	branch = pb-stable
