@@ -19,7 +19,7 @@ $ npm run init
 $ ghost start
 ```
 
-## update
+## update submodule
 
 ```console
 $ git submodule update --remote
