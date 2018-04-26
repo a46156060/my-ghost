@@ -18,3 +18,11 @@ $ npm run init
 ```console
 $ ghost start
 ```
+
+## update
+
+```console
+$ git submodule update --remote
+# OR
+$ npm run update
+```

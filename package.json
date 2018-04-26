@@ -5,7 +5,7 @@
   "main": "./current/core/index.js",
   "scripts": {
     "init": "find ./scripts/ -type f -exec chmod 755 {} \\; && ./scripts/init.sh",
-    "build": "./scripts/build.sh"
+    "update": "git submodule update --remote"
   },
   "author": "",
   "license": "ISC",
